@@ -1,5 +1,6 @@
 import dash
 import base64
+from flask import Flask
 
 import pandas as pd
 import plotly.io as pio
@@ -25,7 +26,7 @@ colors = {
     'text': '#7FDBFF'
 }
 
-
+app = Flask(__name__)
 
 data  = pd.read_csv("/data/final1.csv")
 
