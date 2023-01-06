@@ -27,7 +27,7 @@ colors = {
 
 
 
-data  = pd.read_csv("/Users/brightabohsilasedem/Desktop/Dashboard/Gss/data/final1.csv")
+data  = pd.read_csv("/data/final1.csv")
 
 #####################################################################################################################
 #Percentage $ dispaly preprocessing
