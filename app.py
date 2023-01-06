@@ -157,14 +157,14 @@ controls = dbc.Row(
         
 
     
-    className = 'mb-3'
+    className ='mb-3'
     dbc.Label("District"),
     dcc.Dropdown(
         id="district-dpdn",
         options=[], multi = True, clearable = False,
         ),
 
-    className = 'mb-3'
+    className="mb-3"
 
     ],
 
