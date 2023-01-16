@@ -1,4 +1,4 @@
-Flask
-Gunicorn
-Dash
-Plotly
+flask
+gunicorn
+dash
+plotly
